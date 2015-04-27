@@ -1,7 +1,7 @@
 Capstone App Pitch: Dumbo
 ========================================================
 author: Zain Tejani
-date: Mon Apr 27 16:16:56 2015
+date: Mon Apr 27 16:19:44 2015
 
 Introduction
 ========================================================
@@ -34,9 +34,18 @@ Input Statement: "Hello, what a beautiful"
 
 Sample Output: Dumbo
 
+```
+         [,1]               
+         "Precision: 4-gram"
+finPred4 "day"              
+```
 
-
+Sample Output: Dumbo3
 
 ```
-Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+       [,1]               
+       "Precision: 3-gram"
+pred31 "day"              
+pred32 "thing"            
+pred33 "weekend"          
 ```
